@@ -3,6 +3,8 @@ import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 
 const App = () => {
   const [data, setData] = useState({
+    // username: 'ffff', //try these values also
+    // password: 'ggg',
     username: '',
     password: '',
   });
